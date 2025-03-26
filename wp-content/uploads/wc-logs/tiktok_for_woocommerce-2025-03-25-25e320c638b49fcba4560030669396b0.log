@@ -1,0 +1,28 @@
+2025-03-25T08:58:55+00:00 DEBUG POST: https://ads.tiktok.com/marketing_api/api/developer/app/create_auto_approve/
+
+{"business_platform":"PROD","smb_id":"tt4b_woocommerce_67e2704f63536httpsemenovhesteduwp-admin","smb_name":"PROD","redirect_url":"http:\/\/semenov.hest.edu\/wp-admin\/"}
+ ajax: no
+2025-03-25T08:58:56+00:00 DEBUG Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+X-Tt-Logid: 20250325085854E02072A3C699D2ED72C3,20250325085854E02072A3C699D2ED72C3
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+x-tt-trace-host: 010783438c3c412ca94573b6f08883938ec7cbe18a87299a3d8a6160c1771ad8df2fc6a0f9c611add2d7510e1e0fec21e2df50cff83401b9d6f43130e2afb126aa6b4a824dfc6c6ad7f9c4ef1fcac58d75de0821ec334f424629308ee9469e9ccc4625cab85fceec4fc375437c4a5ada38
+x-tt-trace-id: 00-250325085854E02072A3C699D2ED72C3-353310C57812CC85-00
+Server: TLB
+Content-Encoding: gzip
+Content-Length: 206
+X-Origin-Response-Time: 58,23.48.172.86
+X-Akamai-Request-ID: bf2fff21.30b1ce2f
+Date: Tue, 25 Mar 2025 08:58:56 GMT
+X-Cache: TCP_MISS from a104-94-100-77.deploy.akamaitechnologies.com (AkamaiGHost/22.0.0.1-318443691900e5d3d78f5dd48f596007) (-)
+Connection: close
+Vary: Accept-Encoding
+X-Cache-Remote: TCP_MISS from a23-48-172-86.deploy.akamaitechnologies.com (AkamaiGHost/22.0.0.1-318443691900e5d3d78f5dd48f596007) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=194, origin; dur=58
+Server-Timing: inner; dur=53
+X-Parent-Response-Time: 246,104.94.100.77
+
+{"code":0,"msg":"ok","data":{"app_id":"7485669019375108104","external_data_key":"7a1623ba-98f3-471b-bb71-921e819e50ee","app_secret":"bb35017ceaf482ac0ca9fddfd69ca4e11917e26f","redirect_uri":"http:\/\/semenov.hest.edu\/wp-admin\/"}}

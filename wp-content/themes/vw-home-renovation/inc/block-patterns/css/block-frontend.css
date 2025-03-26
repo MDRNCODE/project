@@ -1,0 +1,150 @@
+.banner-section .slider-content .wp-block-column{
+  position: absolute;
+  left: 15%;
+  right: 58%;
+  top: 35%;
+}
+.banner-section .slider-content .wp-block-column .wp-block-button__link,.service-section .tab-left .wp-block-button__link{
+ color: #000 !important;
+ font-weight: 600;
+ padding: 10px 15px;
+}
+.banner-section .slider-content .wp-block-column .wp-block-button,.service-section .tab-left .wp-block-button{
+  background: #000;
+  padding: 5px 18px 5px 5px;
+  display: inline-block;
+  border-radius: 6px;
+}
+.banner-section .slider-content .wp-block-column .wp-block-button a,.service-section .tab-left .wp-block-button a{
+  position: relative;
+}
+.banner-section .slider-content .wp-block-column .wp-block-button a:hover,.service-section .tab-left .wp-block-button a:hover,
+.service-section .tab-section .wp-block-buttons a:hover{
+  background-color: #F6B110 !important;
+}
+.banner-section .slider-content .wp-block-column .wp-block-button a:after,.service-section .tab-left .wp-block-button a:after{
+  content: "\f105";    
+  font-family: 'Font Awesome 5 Free';
+  position: absolute;
+  bottom: auto;   
+  color: #fff;
+  font-weight: 900;
+  transform: translateX(-50%);   
+}
+.banner-section .slider-content .wp-block-column .wp-block-button a:after{
+  right: -11%;
+}
+
+/*service section*/
+.service-section .tab-left .wp-block-button a:after{
+  right: -14%;
+}
+.service-section .tab-content{
+  background: #F2F2F2;
+  border-radius: 15px;
+  padding: 10px 20px !important;
+  border-width: 0px !important;
+}
+.service-section .tab-left p{
+  line-height: 30px;
+}
+.service-section .tab-img img{
+  border-radius: 20px;
+}
+.service-section .wp-block-buttons a:hover{
+  background-color:#F6B110 !important;
+}
+.service-section .tab-section{
+  gap: 1em;
+  margin: 0 auto;
+}
+.service-section .tab-section .wp-block-buttons a{
+  color: #000 !important;
+  font-size: 16px !important;
+  font-weight: 700;
+  box-shadow: 0px 1px 6px #00000029;
+  padding: 10px 16px;
+  padding-left: 30%;
+}
+.service-section .tab-section .wp-block-button{
+ position: relative;
+}
+.service-section .tab-section .wp-block-buttons a:before{
+  content: "\f015";    
+  font-family: 'Font Awesome 5 Free';
+  position: absolute;
+  bottom: auto;   
+  color: #000;
+  font-weight: 900;
+  transform: translateX(-50%);
+  left: 12%;
+  font-size: 30px;
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1500px){
+  .banner-section .slider-content .wp-block-column{
+    right: 50%;
+    top: 25%;
+  }
+}
+@media screen and (min-width: 1001px) and (max-width: 1024px){
+  .banner-section .slider-content .wp-block-column{
+    top: 25%;
+    left: 6%;
+    right: 50%;
+  }
+  .service-section .tab-section .wp-block-buttons a{
+    font-size: 13px !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px){ 
+  .banner-section,.service-section .tab-content,.service-section .tab-section{
+    flex-wrap: nowrap !important;
+  } 
+  .service-section .tab-section .wp-block-buttons a{
+    font-size: 10px !important;
+  }
+  .service-section .tab-section .wp-block-buttons a:before{
+    left: 16%;
+    font-size: 16px;
+  }
+  .banner-section .slider-content .wp-block-column{
+    left: 5%;
+    top: 23%;
+    right: 50%;
+  }
+  .service-section .tab-section{
+    gap: 6px;
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 767px){
+  .banner-section{
+    gap: 25em;
+  }
+  .banner-section .slider-content .wp-block-column{
+    right: 20%;
+    top: 14%;
+  }
+  .service-section .tab-section .wp-block-buttons a:before{
+    bottom: 0%;
+  }
+}
+@media screen and (max-width: 1000px){
+  .banner-section .slider-content h1{
+    font-size: 30px !important;
+  }
+}
+@media screen and (max-width: 500px){
+  .banner-section{
+    gap: 24em;
+  }
+  .banner-section .slider-content .wp-block-column{
+    left: 5%;
+    right: 5%;
+    top: 13%;
+  }
+  .service-section .tab-section .wp-block-buttons a:before{
+    bottom: 0%;
+  }
+}

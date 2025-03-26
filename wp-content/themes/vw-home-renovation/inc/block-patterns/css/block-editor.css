@@ -1,0 +1,84 @@
+.banner-section .slider-content .wp-block-column{
+  position: absolute;
+  left: 15%;
+  right: 20%;
+  padding-top: 25%;
+}
+.banner-section .slider-content .wp-block-column .wp-block-button__link,.service-section .tab-left .wp-block-button__link{
+ color: #000 !important;
+ font-weight: 600;
+ padding: 10px 15px;
+}
+.banner-section .slider-content .wp-block-column .wp-block-button,.service-section .tab-left .wp-block-button{
+  background: #000;
+  padding: 5px 18px 5px 5px;
+  display: inline-block;
+  border-radius: 6px;
+}
+.banner-section .slider-content .wp-block-column .wp-block-button a,.service-section .tab-left .wp-block-button a{
+  position: relative;
+}
+.banner-section .slider-content .wp-block-column .wp-block-button__link:hover,.service-section .tab-left .wp-block-button__link:hover,
+.service-section .tab-section .wp-block-button__link:hover{
+  background-color: #F6B110 !important;
+}
+.banner-section .slider-content .wp-block-column .wp-block-button .wp-block-button__link:after,.service-section .tab-left .wp-block-button .wp-block-button__link:after{
+  content: ">";    
+  position: absolute;
+  bottom: 25%;   
+  color: #fff;
+  font-weight: 900;
+  font-size: 18px;
+  transform: translateX(-50%);   
+}
+.banner-section .slider-content .wp-block-column .wp-block-button .wp-block-button__link:after{
+  right: 0%;
+}
+
+/*service section*/
+.service-section{
+  max-width: 1024px;
+}
+.service-section .tab-left .wp-block-button .wp-block-button__link:after{
+  right: 1%;
+}
+.service-section .tab-content{
+  background: #F2F2F2;
+  border-radius: 15px;
+  padding: 20px 20px !important;
+  border-width: 0px !important;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.service-section .tab-left p{
+  line-height: 30px;
+}
+.service-section .tab-img img{
+  border-radius: 20px;
+}
+.service-section .tab-section .wp-block-buttons .wp-block-button__link{
+  color: #000 !important;
+  font-size: 16px !important;
+  font-weight: 700;
+  box-shadow: 0px 1px 6px #00000029;
+  padding: 10px 15px;
+  padding-left: 30%;
+}
+.service-section .tab-section .wp-block-button{
+ position: relative;
+}
+.service-section .tab-section .wp-block-buttons .wp-block-button__link:before{
+  content: "";    
+  background: url(../images/home.png) no-repeat;
+  font-family: 'Font Awesome 5 Free';
+  position: absolute;
+  transform: translateX(-50%);
+  left: 30%;
+  height: 40px;
+  width: 100px;
+}
+.service-section .wp-block{
+  margin-top: 10px;
+  margin-bottom: 0px;
+
+}

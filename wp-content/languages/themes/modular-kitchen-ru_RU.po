@@ -1,0 +1,300 @@
+# Translation of Themes - Modular Kitchen in Russian
+# This file is distributed under the same license as the Themes - Modular Kitchen package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-08-20 07:43:37+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ru\n"
+"Project-Id-Version: Themes - Modular Kitchen\n"
+
+#. Theme Name of the theme
+#: style.css
+#, gp-priority: high
+msgid "Modular Kitchen"
+msgstr "Modular Kitchen"
+
+#. Description of the theme
+#: style.css
+#, gp-priority: high
+msgid "Modular Kitchen is a sleek and stylish WordPress theme designed specifically for kitchen designers,  interior decorators, architects, home decor shops, furniture decor shop etc. and home improvement businesses. It is an ideal solution for businesses in the home and kitchen improvement to create a professional online presence and reach a larger crowd of potential customers. The theme comes with a clean and modern design while offering a perfect platform to showcase your expertise in creating stunning modular kitchens. The Modular Kitchen WordPress theme features a highly customizable layout, allowing you to tailor your website to match your brand identity and showcase your unique design ideas. You can easily customize colors, fonts, and page layouts to create a visually appealing and cohesive online presence. This theme offers a range of built-in features that enhance the functionality of your website. With the integrated gallery feature, you can showcase your portfolio of completed projects, highlighting the beauty and functionality of your modular kitchen designs. The theme also includes a blog section, enabling you to share valuable tips, design trends, and inspiration with your audience. In addition, the Modular Kitchen WordPress theme is fully responsive, ensuring that your website looks stunning on all devices, from desktop computers to smartphones and tablets."
+msgstr "Modular Kitchen - это элегантная и стильная тема WordPress, разработанная специально для дизайнеров кухонь, декораторов интерьеров, архитекторов, магазинов домашнего декора, мебели и т.д. и предприятий, занимающихся обустройством дома. Это идеальное решение для компаний, занимающихся обустройством дома и кухни, для создания профессионального онлайн-представительства и охвата большего числа потенциальных клиентов. Тема имеет чистый и современный дизайн и предлагает идеальную платформу для демонстрации вашего опыта в создании потрясающих модульных кухонь. Тема Modular Kitchen WordPress имеет легко настраиваемый макет, позволяющий создать сайт, соответствующий вашему фирменному стилю и демонстрирующий ваши уникальные дизайнерские идеи. Вы можете легко настроить цвета, шрифты и макеты страниц, чтобы создать визуально привлекательное и целостное присутствие в Интернете. Эта тема предлагает ряд встроенных функций, которые расширяют функциональность сайта. Встроенная функция галереи позволяет демонстрировать портфолио выполненных проектов, подчеркивая красоту и функциональность ваших модульных кухонь. Тема также включает раздел блога, позволяющий делиться с аудиторией ценными советами, тенденциями дизайна и вдохновением. Кроме того, тема Modular Kitchen WordPress полностью отзывчива, что гарантирует потрясающий внешний вид вашего сайта на всех устройствах - от настольных компьютеров до смартфонов и планшетов."
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:37
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s комментарий для &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s комментария для &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s комментариев для &ldquo;%2$s&rdquo;"
+
+#. translators: %s: post date
+#. translators: %s: post author
+#: inc/template-tags.php:27 inc/template-tags.php:33
+msgid "<span class=\"screen-reader-text\">Posted on</span> %s"
+msgstr "<span class=\"screen-reader-text\">Опубликовано</span> %s"
+
+#: functions.php:128
+msgid "Add widgets here."
+msgstr "Добавьте виджеты здесь."
+
+#: inc/customizer.php:451
+msgid "Button Text"
+msgstr "Текст кнопки"
+
+#: inc/customizer.php:462
+msgid "Button Url"
+msgstr "URL кнопки"
+
+#: template-parts/content-audio.php:43 template-parts/content-gallery.php:31
+#: template-parts/content-image.php:26 template-parts/content-search.php:15
+#: template-parts/content-single.php:30 template-parts/content-video.php:42
+#: template-parts/content.php:28
+msgid "BY"
+msgstr "ОТ"
+
+#: comments.php:53 comments.php:67
+msgid "Comment navigation"
+msgstr "Навигация по комментарию"
+
+#: comments.php:80
+msgid "Comments are closed."
+msgstr "Обсуждение закрыто."
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-single.php:40
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Читать далее<span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#: inc/template-tags.php:142 inc/template-tags.php:162
+msgid "Edit"
+msgstr "Изменить"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:44
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Изменить <span class=\"screen-reader-text\">%s</span>"
+
+#: inc/customizer.php:747
+msgid "Footer"
+msgstr "Подвал"
+
+#: functions.php:65
+msgid "Footer Menu"
+msgstr "Меню подвала"
+
+#: inc/customizer.php:30
+msgid "GET PREMIUM"
+msgstr "ПОЛУЧИТЬ ПРЕМИУМ"
+
+#: inc/customizer.php:443
+msgid "Header Option"
+msgstr "Настройки заголовка"
+
+#. Template Name of the theme
+msgid "Home Template"
+msgstr "Шаблон главной страницы"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "По данному адресу ничего не найдено. Попробуйте воспользоваться одной из ссылок ниже или поиском?"
+
+#: template-parts/content-none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Похоже мы не можем найти то, что вы просите. Попробуйте воспользоваться поиском."
+
+#. translators: %s: post title
+#: inc/template-tags.php:42
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Добавить комментарий<span class=\"screen-reader-text\"> к  %s</span>"
+
+#. Template Name of the theme
+#: inc/customizer.php:350 inc/customizer.php:376
+msgid "Left Sidebar"
+msgstr "Левая боковая панель"
+
+#: comments.php:56 comments.php:70
+msgid "Newer Comments"
+msgstr "Новые комментарии"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+#: comments.php:55 comments.php:69
+msgid "Older Comments"
+msgstr "Предыдущие комментарии"
+
+#. translators: %s: post title
+#: comments.php:32
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "Один комментарий к &ldquo;%s&rdquo;"
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ой! Страница не найдена."
+
+#: template-parts/content-page.php:31 template-parts/content-single.php:51
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: inc/template-tags.php:141
+msgid "Pingback:"
+msgstr "Уведомление:"
+
+#: functions.php:64
+msgid "Primary"
+msgstr "Основной"
+
+#. translators: %s: CMS name, i.e. WordPress.
+#: footer.php:79
+msgid "Proudly powered by %s"
+msgstr "Работает на %s"
+
+#: template-parts/content-audio.php:55 template-parts/content-gallery.php:43
+#: template-parts/content-image.php:38 template-parts/content-search.php:21
+#: template-parts/content-video.php:54 template-parts/content.php:40
+msgid "Read More"
+msgstr "Читайте далее"
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Готовы опубликовать свою первую запись? <a href=\"%1$s\">Начните здесь!</a>."
+
+#: searchform.php:14
+msgctxt "submit button"
+msgid "Search"
+msgstr "Поиск"
+
+#: searchform.php:12
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Поиск&hellip;"
+
+#: searchform.php:12
+msgctxt "label"
+msgid "Search for:"
+msgstr "Поиск по:"
+
+#. translators: %s: search query.
+#: search.php:24
+msgid "Search Results for: %s"
+msgstr "Результаты поиска для: %s"
+
+#: functions.php:126
+msgid "Sidebar"
+msgstr "Область виджетов"
+
+#: header.php:42
+msgid "Skip to content"
+msgstr "Перейти к содержимому"
+
+#: template-parts/content-none.php:37
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "По вашему запросу ничего не найдено. Попробуйте другие ключевые слова.."
+
+#: footer.php:104
+msgid "TOP"
+msgstr "ВЕРХ"
+
+#: template-parts/navigation/nav.php:14
+msgid "Top Menu"
+msgstr "Верхнее меню"
+
+#: inc/customizer.php:704
+msgid "Types of Kitchen to show"
+msgstr "Типы кухонь для показа"
+
+#: woocommerce/checkout/form-checkout.php:26
+msgid "You must be logged in to checkout."
+msgstr "Вы должный войти на сайт, чтобы совершить покупку."
+
+#: inc/template-tags.php:167
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает проверки."
+
+#: woocommerce/checkout/form-checkout.php:51
+msgid "Your order"
+msgstr "Ваш заказ"
+
+#: inc/customizer.php:527
+msgid "Slider Option"
+msgstr "Вариант слайдера"
+
+#: inc/customizer.php:535
+msgid "Banner Heading"
+msgstr "Заголовок баннера"
+
+#: inc/customizer.php:546
+msgid "Banner Text"
+msgstr "Текст баннера"
+
+#: inc/customizer.php:558
+msgid "Counter Image"
+msgstr "Изображение счетчика"
+
+#: page-template/home-template.php:116
+msgid "Explore More"
+msgstr "Узнать больше"
+
+#: inc/customizer.php:685
+msgid "Types Of Kitchen Option"
+msgstr "Типы кухонных вариантов"
+
+#: inc/customizer.php:569
+msgid "Video Url"
+msgstr "URL видео"
+
+#: inc/customizer.php:604
+msgid "Slider Porduct Option"
+msgstr "Слайдерный вариант товара"
+
+#: inc/customizer.php:693
+msgid "Section Main Heading"
+msgstr "Основной заголовок раздела"
+
+#: inc/customizer.php:729
+msgid "Select category to display Kitchen Types"
+msgstr "Выберите категорию для отображения типов кухонь"
+
+#: inc/customizer.php:801
+msgid "Replace the footer text"
+msgstr "Заменить текст подвала"
+
+#: inc/customizer.php:14
+msgid "Modular Kitchen Pro"
+msgstr "Modular Kitchen Pro"
+
+#: inc/customizer.php:635
+msgid "Select Left Product Category"
+msgstr "Выберите левую категорию товара"
+
+#: inc/customizer.php:667
+msgid "Select Right Product Category"
+msgstr "Выберите правую категорию товара"
+
+#: page-template/home-template.php:55
+msgid "Add Video Url In Customizer To Display Video Here"
+msgstr "Добавьте URL видео в настройке темы, чтобы отобразить видео здесь"
+
+#. Template Name of the theme
+#: inc/customizer.php:351 inc/customizer.php:377
+msgid "Right Sidebar"
+msgstr "Правая область виджетов"
+
+#. Author URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://www.themagnifico.net/"
+msgstr "https://www.themagnifico.net/"
+
+#. Author of the theme
+#: style.css
+#, gp-priority: low
+msgid "TheMagnifico52"
+msgstr "TheMagnifico52"
